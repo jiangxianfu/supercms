@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperCms.Web", "SuperCms.Web\SuperCms.Web.csproj", "{8E31D64E-11E9-4B37-AF4B-A32F9DC53F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperCms.Lib", "SuperCms.Lib\SuperCms.Lib.csproj", "{0E5872FD-798C-4D2D-AFD2-4CAAA66C1108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E31D64E-11E9-4B37-AF4B-A32F9DC53F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E31D64E-11E9-4B37-AF4B-A32F9DC53F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E31D64E-11E9-4B37-AF4B-A32F9DC53F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E31D64E-11E9-4B37-AF4B-A32F9DC53F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5872FD-798C-4D2D-AFD2-4CAAA66C1108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5872FD-798C-4D2D-AFD2-4CAAA66C1108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5872FD-798C-4D2D-AFD2-4CAAA66C1108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5872FD-798C-4D2D-AFD2-4CAAA66C1108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

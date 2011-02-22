@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sites.master.cs" Inherits="SuperCms.Web.Sites" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>模板引擎管理</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1>
+        模板引擎管理-功能列表</h1>
+    <ul>
+        <li><a href="/TempletList.aspx">模板管理</a></li>
+        <li><a href="/LabelTagList.aspx">标签管理</a></li>
+        <li><a href="/LabelSqlList.aspx">标签数据管理</a></li>
+        <li><a href="/LabelTagSqlTest.aspx">标签测试向导</a></li>
+    </ul>
+    <hr />
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
